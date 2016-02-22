@@ -2,7 +2,10 @@
 - Install android sdk
 - Install Gradle
 
+## Run
+- Run the *devSetting.sh* in your terminal
 
+## Debug
 If get *Build Failed* Error
 ```xml
 :mergeArmDebugResources FAILED
@@ -25,4 +28,19 @@ And change *build.gradle* file
     dependencies {
             classpath 'com.android.tools.build:gradle:1.1.0'
 	     }
-```	
+```
+
+## Build Success
+
+```sh
+	cd sl4a/android/ScriptingLayerForAndroid
+	cd gradle assembleDebug
+```
+add go to apk folder
+
+```sh
+	sl4a/android/ScriptingLayerForAndroid/build/outputs/apk$
+```
+
+Ref
+ SL4A https://github.com/kuri65536/sl4a
