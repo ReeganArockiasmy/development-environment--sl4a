@@ -39,8 +39,8 @@ And change *build.gradle* file
 add go to apk folder
 
 ```sh
-	sl4a/android/ScriptingLayerForAndroid/build/outputs/apk$
+	cd sl4a/android/ScriptingLayerForAndroid/build/outputs/apk$
 ```
 
-Ref
+## Ref
  SL4A https://github.com/kuri65536/sl4a
