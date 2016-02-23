@@ -48,10 +48,10 @@ Install python for android in your mobile.
 
 [PythonForAndroid-debug.apk](https://github.com/kuri65536/python-for-android/releases/download/r26/PythonForAndroid-debug-r26.apk)
 
+[Ref](https://github.com/kuri65536/python-for-android/releases)
+
+
 Next install build your sl4a apk in your mobile
-
-
-
 
 ## Ref
  SL4A https://github.com/kuri65536/sl4a

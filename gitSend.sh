@@ -18,6 +18,7 @@ commit_file(){
 git add --all
 echo "Do you wish to commit this file?"
 git status
+
 select yn in "Yes" "No"; do
     case $yn in
 	Yes ) make install; break;;
