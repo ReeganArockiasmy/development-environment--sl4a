@@ -5,10 +5,29 @@ then
     commit_message=$*
     echo OK
 else
-    echo FAIL
-    break
+    echo FAIL Add commit message
+    exit
 fi
-# GIT=`which git`		      
+
+commit_file(){
+
+    git commit -m "$commit_message"
+    
+    }
+
 git add --all
-git commit -m "$commit_message"
+echo "Do you wish to commit this file?"
+git status
+select yn in "Yes" "No"; do
+    case $yn in
+	Yes ) make install; break;;
+	No ) exit;;
+    esac
+    done
+
+
+
 git push origin master
+
+
+
